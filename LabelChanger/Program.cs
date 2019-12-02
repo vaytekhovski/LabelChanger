@@ -129,6 +129,7 @@ namespace LabelChanger
 
             Result r0 = Server.Instance.Send(SHOP_CODE, STATION_ID, t0, true, true);
             Console.WriteLine("\r\nDemo #0 Send Result:" + r0);
+            Console.WriteLine("Status is " + t0.Status);
         }
 
 
